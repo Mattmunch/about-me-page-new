@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>About Me</h1>
+    <section id="upbringing">
+        My name is Matt and I was born in Lewiston, Idaho. I grew up in Kamiah, Idaho.
+        I moved to Lewiston, when I turned 18, and attended Lewis-Clark State College. I studied HVAC and received an Associates degree of Applied Science.
+        I have a nine month old Boston Terrier named Lucca and a 14 year old Black Lab named Molly.
+    </section>
+
+    <article class="dogInfo" style="display:table">
+        <div class="list" style="display:table-cell; vertical-align:top;">
+            <h3>Molly's Favorite Activities (Unranked)</h3>
+            <ul>
+                <li>Eat</li>
+                <li>Nap</li>
+                <li>Snore</li>
+            </ul>
+        </div>
+        <div classstyle="display:table-cell;float:right;">
+            <img id="molly"
+                src="./assets/mollylucca2.jpg" />
+        </div>
+    </article>
+    
+    
+    <article class="dogInfo" style="display:table">
+        <div class="list" style="display:table-cell; vertical-align:top;">
+            <h3>Lucca's Favorite Activities (Ranked)</h3>
+            <ol>
+                <li>Fetch, All Day Everyday</li>
+                <li>Chewing up Matt's shoes</li>
+                <li>Wrestle her Best Friend <br> Donald the German Sheppard</li>
+            </ol>
+        </div>
+        <div classstyle="display:table-cell;float:right;">
+            <img id="lucca" src="./assets/mollylucca1.jpg" />
+        </div>
+    </article>
+    
+    
+    <button id="action-button">Take My Quiz</button>
+    <Section id='hidden-results' class="hidden">
+        Test Results: <span id="user-span"></span>, you got </span><span id='result-span'></span>/3 Correct. <span id="percent-span"></span>
+    </Section>
+    
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>
